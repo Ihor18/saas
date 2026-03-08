@@ -1,0 +1,36 @@
+{
+  "users": [
+    { "id": 1, "name": "Іван Петренко", "email": "ivan@crm.com", "role": "admin", "status": "active", "createdAt": "2026-01-05" },
+    { "id": 2, "name": "Марія Коваль", "email": "maria@crm.com", "role": "manager", "status": "active", "createdAt": "2026-01-10" },
+    { "id": 3, "name": "Олег Бондар", "email": "oleg@crm.com", "role": "manager", "status": "active", "createdAt": "2026-01-15" },
+    { "id": 4, "name": "Тетяна Мороз", "email": "tetyana@crm.com", "role": "manager", "status": "inactive", "createdAt": "2026-01-20" },
+    { "id": 5, "name": "Дмитро Шевченко", "email": "dmytro@crm.com", "role": "manager", "status": "active", "createdAt": "2026-02-01" }
+  ],
+  "deals": [
+    { "id": 1, "title": "Інтеграція CRM для Rozetka", "amount": 45000, "status": "won", "userId": 1, "createdAt": "2026-01-10" },
+    { "id": 2, "title": "Розробка сайту для Nova Poshta", "amount": 120000, "status": "in_progress", "userId": 2, "createdAt": "2026-01-15" },
+    { "id": 3, "title": "SEO просування для Epicentr", "amount": 18000, "status": "new", "userId": 2, "createdAt": "2026-01-20" },
+    { "id": 4, "title": "Мобільний додаток для Silpo", "amount": 95000, "status": "new", "userId": 3, "createdAt": "2026-02-01" },
+    { "id": 5, "title": "Технічна підтримка для АТБ", "amount": 24000, "status": "lost", "userId": 3, "createdAt": "2026-02-05" },
+    { "id": 6, "title": "Email-маркетинг для Foxtrot", "amount": 12000, "status": "won", "userId": 4, "createdAt": "2026-02-10" },
+    { "id": 7, "title": "Аудит безпеки для Monobank", "amount": 67000, "status": "in_progress", "userId": 5, "createdAt": "2026-02-15" },
+    { "id": 8, "title": "Редизайн сайту для Укрпошта", "amount": 38000, "status": "new", "userId": 1, "createdAt": "2026-02-20" }
+  ],
+  "tasks": [
+    { "id": 1, "title": "Зателефонувати клієнту Rozetka", "description": "Обговорити фінальні умови договору", "status": "done", "priority": "high", "userId": 1, "deadline": "2026-02-10" },
+    { "id": 2, "title": "Підготувати КП для Nova Poshta", "description": "Скласти детальну комерційну пропозицію", "status": "in_progress", "priority": "high", "userId": 2, "deadline": "2026-03-10" },
+    { "id": 3, "title": "Провести демо для Silpo", "description": "Показати прототип мобільного додатку", "status": "todo", "priority": "medium", "userId": 3, "deadline": "2026-03-15" },
+    { "id": 4, "title": "Написати технічне завдання", "description": "ТЗ для проєкту Epicentr", "status": "todo", "priority": "medium", "userId": 2, "deadline": "2026-03-08" },
+    { "id": 5, "title": "Надіслати рахунок Foxtrot", "description": "Рахунок за перший місяць підтримки", "status": "done", "priority": "low", "userId": 4, "deadline": "2026-02-28" },
+    { "id": 6, "title": "Звіт по аудиту Monobank", "description": "Підготувати фінальний звіт з рекомендаціями", "status": "in_progress", "priority": "high", "userId": 5, "deadline": "2026-03-05" },
+    { "id": 7, "title": "Узгодити макети для Укрпошта", "description": "Отримати підтвердження від клієнта", "status": "todo", "priority": "low", "userId": 1, "deadline": "2026-03-20" }
+  ],
+  "comments": [
+    { "id": 1, "text": "Клієнт підтвердив умови, чекаємо підпису договору", "userId": 1, "dealId": 1, "createdAt": "2026-01-12" },
+    { "id": 2, "text": "Зустріч перенесена на наступний тиждень", "userId": 2, "dealId": 2, "createdAt": "2026-01-18" },
+    { "id": 3, "text": "Надіслали КП, чекаємо відповіді", "userId": 2, "dealId": 3, "createdAt": "2026-01-22" },
+    { "id": 4, "text": "Клієнт зацікавлений, домовились про демо", "userId": 3, "dealId": 4, "createdAt": "2026-02-03" },
+    { "id": 5, "text": "На жаль обрали іншого підрядника", "userId": 3, "dealId": 5, "createdAt": "2026-02-07" },
+    { "id": 6, "text": "Перший платіж отримано", "userId": 4, "dealId": 6, "createdAt": "2026-02-12" }
+  ]
+}
